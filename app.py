@@ -546,7 +546,7 @@ footer{display:none !important}
 """
 
 with gr.Blocks(css=css) as interface:
-    gr.Markdown("# 🗿 Swap Mukham")
+    gr.Markdown("# 🗿 Swap Mukham (NSFW Edition)")
     gr.Markdown("### Face swap app based on insightface inswapper.")
     with gr.Row():
         with gr.Row():
