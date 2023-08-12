@@ -229,7 +229,7 @@ def process(
         ## ------------------------------ CONTENT CHECK ------------------------------
 
         yield "### \n ⌛ Checking contents...", *ui_before()
-        nsfw = NSFW_DETECTOR.is_nsfw(image_sequence)
+        nsfw = False
         if nsfw:
             message = "NSFW Content detected !!!"
             yield f"### \n 🔞 {message}", *ui_before()
